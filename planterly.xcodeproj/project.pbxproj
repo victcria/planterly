@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07DF88F22EF9B0A00D14DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DF88E22EF9B0A00D14DD4 /* AppDelegate.swift */; };
+		A07DF89122EF9B0A00D14DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DF89022EF9B0A00D14DD4 /* ViewController.swift */; };
+		A07DF89422EF9B0A00D14DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07DF89222EF9B0A00D14DD4 /* Main.storyboard */; };
+		A07DF89622EF9B0C00D14DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07DF89522EF9B0C00D14DD4 /* Assets.xcassets */; };
+		A07DF89922EF9B0C00D14DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07DF89722EF9B0C00D14DD4 /* LaunchScreen.storyboard */; };
+		A07DF8A422EF9B0C00D14DD4 /* planterlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DF8A322EF9B0C00D14DD4 /* planterlyTests.swift */; };
+		A07DF8AF22EF9B0C00D14DD4 /* planterlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DF8AE22EF9B0C00D14DD4 /* planterlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A07DF8A022EF9B0C00D14DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07DF88322EF9B0900D14DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07DF88A22EF9B0900D14DD4;
+			remoteInfo = planterly;
+		};
+		A07DF8AB22EF9B0C00D14DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07DF88322EF9B0900D14DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07DF88A22EF9B0900D14DD4;
+			remoteInfo = planterly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A07DF88B22EF9B0A00D14DD4 /* planterly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planterly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07DF88E22EF9B0A00D14DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A07DF89022EF9B0A00D14DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A07DF89322EF9B0A00D14DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A07DF89522EF9B0C00D14DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07DF89822EF9B0C00D14DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A07DF89A22EF9B0C00D14DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07DF89F22EF9B0C00D14DD4 /* planterlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planterlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07DF8A322EF9B0C00D14DD4 /* planterlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planterlyTests.swift; sourceTree = "<group>"; };
+		A07DF8A522EF9B0C00D14DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07DF8AA22EF9B0C00D14DD4 /* planterlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planterlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07DF8AE22EF9B0C00D14DD4 /* planterlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planterlyUITests.swift; sourceTree = "<group>"; };
+		A07DF8B022EF9B0C00D14DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07DF88822EF9B0900D14DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF89C22EF9B0C00D14DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF8A722EF9B0C00D14DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07DF88222EF9B0900D14DD4 = {
+			isa = PBXGroup;
+			children = (
+				A07DF88D22EF9B0A00D14DD4 /* planterly */,
+				A07DF8A222EF9B0C00D14DD4 /* planterlyTests */,
+				A07DF8AD22EF9B0C00D14DD4 /* planterlyUITests */,
+				A07DF88C22EF9B0A00D14DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07DF88C22EF9B0A00D14DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07DF88B22EF9B0A00D14DD4 /* planterly.app */,
+				A07DF89F22EF9B0C00D14DD4 /* planterlyTests.xctest */,
+				A07DF8AA22EF9B0C00D14DD4 /* planterlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07DF88D22EF9B0A00D14DD4 /* planterly */ = {
+			isa = PBXGroup;
+			children = (
+				A07DF88E22EF9B0A00D14DD4 /* AppDelegate.swift */,
+				A07DF89022EF9B0A00D14DD4 /* ViewController.swift */,
+				A07DF89222EF9B0A00D14DD4 /* Main.storyboard */,
+				A07DF89522EF9B0C00D14DD4 /* Assets.xcassets */,
+				A07DF89722EF9B0C00D14DD4 /* LaunchScreen.storyboard */,
+				A07DF89A22EF9B0C00D14DD4 /* Info.plist */,
+			);
+			path = planterly;
+			sourceTree = "<group>";
+		};
+		A07DF8A222EF9B0C00D14DD4 /* planterlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A07DF8A322EF9B0C00D14DD4 /* planterlyTests.swift */,
+				A07DF8A522EF9B0C00D14DD4 /* Info.plist */,
+			);
+			path = planterlyTests;
+			sourceTree = "<group>";
+		};
+		A07DF8AD22EF9B0C00D14DD4 /* planterlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A07DF8AE22EF9B0C00D14DD4 /* planterlyUITests.swift */,
+				A07DF8B022EF9B0C00D14DD4 /* Info.plist */,
+			);
+			path = planterlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07DF88A22EF9B0900D14DD4 /* planterly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07DF8B322EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterly" */;
+			buildPhases = (
+				A07DF88722EF9B0900D14DD4 /* Sources */,
+				A07DF88822EF9B0900D14DD4 /* Frameworks */,
+				A07DF88922EF9B0900D14DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = planterly;
+			productName = planterly;
+			productReference = A07DF88B22EF9B0A00D14DD4 /* planterly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A07DF89E22EF9B0C00D14DD4 /* planterlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07DF8B622EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterlyTests" */;
+			buildPhases = (
+				A07DF89B22EF9B0C00D14DD4 /* Sources */,
+				A07DF89C22EF9B0C00D14DD4 /* Frameworks */,
+				A07DF89D22EF9B0C00D14DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07DF8A122EF9B0C00D14DD4 /* PBXTargetDependency */,
+			);
+			name = planterlyTests;
+			productName = planterlyTests;
+			productReference = A07DF89F22EF9B0C00D14DD4 /* planterlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A07DF8A922EF9B0C00D14DD4 /* planterlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07DF8B922EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterlyUITests" */;
+			buildPhases = (
+				A07DF8A622EF9B0C00D14DD4 /* Sources */,
+				A07DF8A722EF9B0C00D14DD4 /* Frameworks */,
+				A07DF8A822EF9B0C00D14DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07DF8AC22EF9B0C00D14DD4 /* PBXTargetDependency */,
+			);
+			name = planterlyUITests;
+			productName = planterlyUITests;
+			productReference = A07DF8AA22EF9B0C00D14DD4 /* planterlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07DF88322EF9B0900D14DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "cool kids";
+				TargetAttributes = {
+					A07DF88A22EF9B0900D14DD4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A07DF89E22EF9B0C00D14DD4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A07DF88A22EF9B0900D14DD4;
+					};
+					A07DF8A922EF9B0C00D14DD4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A07DF88A22EF9B0900D14DD4;
+					};
+				};
+			};
+			buildConfigurationList = A07DF88622EF9B0900D14DD4 /* Build configuration list for PBXProject "planterly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07DF88222EF9B0900D14DD4;
+			productRefGroup = A07DF88C22EF9B0A00D14DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07DF88A22EF9B0900D14DD4 /* planterly */,
+				A07DF89E22EF9B0C00D14DD4 /* planterlyTests */,
+				A07DF8A922EF9B0C00D14DD4 /* planterlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07DF88922EF9B0900D14DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07DF89922EF9B0C00D14DD4 /* LaunchScreen.storyboard in Resources */,
+				A07DF89622EF9B0C00D14DD4 /* Assets.xcassets in Resources */,
+				A07DF89422EF9B0A00D14DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF89D22EF9B0C00D14DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF8A822EF9B0C00D14DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07DF88722EF9B0900D14DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07DF89122EF9B0A00D14DD4 /* ViewController.swift in Sources */,
+				A07DF88F22EF9B0A00D14DD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF89B22EF9B0C00D14DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07DF8A422EF9B0C00D14DD4 /* planterlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DF8A622EF9B0C00D14DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07DF8AF22EF9B0C00D14DD4 /* planterlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A07DF8A122EF9B0C00D14DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07DF88A22EF9B0900D14DD4 /* planterly */;
+			targetProxy = A07DF8A022EF9B0C00D14DD4 /* PBXContainerItemProxy */;
+		};
+		A07DF8AC22EF9B0C00D14DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07DF88A22EF9B0900D14DD4 /* planterly */;
+			targetProxy = A07DF8AB22EF9B0C00D14DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A07DF89222EF9B0A00D14DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07DF89322EF9B0A00D14DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A07DF89722EF9B0C00D14DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07DF89822EF9B0C00D14DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07DF8B122EF9B0C00D14DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A07DF8B222EF9B0C00D14DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07DF8B422EF9B0C00D14DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A07DF8B522EF9B0C00D14DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A07DF8B722EF9B0C00D14DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/planterly.app/planterly";
+			};
+			name = Debug;
+		};
+		A07DF8B822EF9B0C00D14DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/planterly.app/planterly";
+			};
+			name = Release;
+		};
+		A07DF8BA22EF9B0C00D14DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = planterly;
+			};
+			name = Debug;
+		};
+		A07DF8BB22EF9B0C00D14DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP23KWDT9F;
+				INFOPLIST_FILE = planterlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.planterlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = planterly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07DF88622EF9B0900D14DD4 /* Build configuration list for PBXProject "planterly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07DF8B122EF9B0C00D14DD4 /* Debug */,
+				A07DF8B222EF9B0C00D14DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07DF8B322EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07DF8B422EF9B0C00D14DD4 /* Debug */,
+				A07DF8B522EF9B0C00D14DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07DF8B622EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07DF8B722EF9B0C00D14DD4 /* Debug */,
+				A07DF8B822EF9B0C00D14DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07DF8B922EF9B0C00D14DD4 /* Build configuration list for PBXNativeTarget "planterlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07DF8BA22EF9B0C00D14DD4 /* Debug */,
+				A07DF8BB22EF9B0C00D14DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07DF88322EF9B0900D14DD4 /* Project object */;
+}
